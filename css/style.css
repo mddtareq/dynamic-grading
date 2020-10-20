@@ -129,3 +129,32 @@ body {
         grid-column-start: 1;
     }
 }
+
+@media (max-width:450px) {
+    .header-box{
+        font-size:10px;
+    }
+    button p{
+        font-size:10px;
+    }
+    .action-box button {
+        height: 30px;
+        width: 50px;
+        border: 1px solid #446DFF;
+        background-color: #446af1;
+        border-radius: 7px;
+        color: #fff;
+        font-size: 16px;
+        outline: none;
+    }
+    .marks-box input {
+        font-size:13px;
+        width: 50px;
+        height: 31px;
+        display: block;
+        background: #F7F7F7;
+        border: 1px solid #D5D5D5;
+        border-radius: 5px;
+        text-align: center;
+    }
+}
